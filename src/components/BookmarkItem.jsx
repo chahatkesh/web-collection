@@ -1,12 +1,35 @@
-import React from "react";
+import React, { useState } from "react";
 
 const BookmarkItem = ({ category, bookmarks }) => {
+  const [select, setSelect] = useState("");
+
+  const toggleSelect = () => {
+    setSelect((prev) => (prev === "active" ? "" : "active"));
+  };
   return (
     <>
-      <div className="mb-8">
-        <div className="flex justify-start items-center">
+      <div className="mb-8  ">
+        <div
+          onClick={toggleSelect}
+          className="cursor-pointer rounded p-4 flex justify-start items-center hover:bg-gray-50">
           <svg
-            className="w-5 h-5 mr-2 text-gray-800 dark:text-white"
+            className={
+              select === "active"
+                ? "w-5 h-5 mr-2 text-gray-800"
+                : "hidden w-5 h-5 mr-2 text-gray-800"
+            }
+            aria-hidden="true"
+            xmlns="http://www.w3.org/2000/svg"
+            fill="currentColor"
+            viewBox="0 0 16 10">
+            <path d="M15.434 1.235A2 2 0 0 0 13.586 0H2.414A2 2 0 0 0 1 3.414L6.586 9a2 2 0 0 0 2.828 0L15 3.414a2 2 0 0 0 .434-2.179Z" />
+          </svg>
+          <svg
+            className={
+              select === "active"
+                ? "hidden w-5 h-5 mr-2 text-gray-800"
+                : "w-5 h-5 mr-2 text-gray-800"
+            }
             aria-hidden="true"
             xmlns="http://www.w3.org/2000/svg"
             fill="currentColor"
@@ -17,7 +40,12 @@ const BookmarkItem = ({ category, bookmarks }) => {
             {category}
           </h1>
         </div>
-        <div className="grid grid-cols-2 lg:grid-cols-4 mt-4 gap-x-4 gap-y-4">
+        <div
+          className={
+            select === "active"
+              ? "grid grid-cols-2 lg:grid-cols-4 mt-4 gap-x-4 gap-y-4"
+              : "hidden"
+          }>
           {bookmarks.map((item, index) => {
             return (
               <>

@@ -200,4 +200,70 @@ export const bookmark_list = [
       },
     ]
   },
+  {
+    id: 4,
+    category: "Money Making",
+    bookmarks: [
+      {
+        name: "Morning Rule",
+        tag: "ui",
+        link: "https://www.instagram.com/mr_chahat_kesharwani",
+        logo: insta_logo
+      },
+      {
+        name: "AI to use",
+        tag: "ux",
+        link: "https://www.instagram.com/mr_chahat_kesharwani",
+        logo: linkedin_logo
+      },
+      {
+        name: "Instagram Account",
+        tag: "account",
+        link: "https://www.instagram.com/mr_chahat_kesharwani",
+        logo: linkedin_logo
+      },
+      {
+        name: "Instagram Account",
+        tag: "account",
+        link: "https://www.instagram.com/mr_chahat_kesharwani",
+        logo: linkedin_logo
+      },
+      {
+        name: "Instagram Account",
+        tag: "account",
+        link: "https://www.instagram.com/mr_chahat_kesharwani",
+        logo: linkedin_logo
+      },
+      {
+        name: "Instagram Account",
+        tag: "account",
+        link: "https://www.instagram.com/mr_chahat_kesharwani",
+        logo: linkedin_logo
+      },
+      {
+        name: "Instagram Account",
+        tag: "account",
+        link: "https://www.instagram.com/mr_chahat_kesharwani",
+        logo: linkedin_logo
+      },
+      {
+        name: "Instagram Account",
+        tag: "account",
+        link: "https://www.instagram.com/mr_chahat_kesharwani",
+        logo: linkedin_logo
+      },
+      {
+        name: "Instagram Account",
+        tag: "account",
+        link: "https://www.instagram.com/mr_chahat_kesharwani",
+        logo: linkedin_logo
+      },
+      {
+        name: "Instagram Account",
+        tag: "account",
+        link: "https://www.instagram.com/mr_chahat_kesharwani",
+        logo: linkedin_logo
+      },
+    ]
+  },
 ]

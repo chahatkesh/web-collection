@@ -5,11 +5,13 @@ const Header = () => {
   const [menu, setMenu] = useState("All");
   return (
     <>
-      <div className="flex justify-center gap-6 my-10 ">
+      <div className="flex justify-center gap-x-6 gap-y-4 my-10 flex-wrap">
         <button
           onClick={() => setMenu("All")}
           className={
-            menu === "All" ? "bg-black text-white py-1 px-4 rounded-sm" : ""
+            menu === "All"
+              ? "bg-gray-800 text-white py-1 px-4 rounded-sm"
+              : "hover:bg-gray-100 py-1 px-3 rounded-sm"
           }>
           All
         </button>
@@ -21,8 +23,8 @@ const Header = () => {
                 onClick={() => setMenu(item.category)}
                 className={
                   menu === item.category
-                    ? "bg-black text-white py-1 px-4 rounded-sm"
-                    : ""
+                    ? "bg-gray-800 text-white py-1 px-4 rounded-sm"
+                    : "hover:bg-gray-100 py-1 px-3 rounded-sm"
                 }>
                 {item.category}
               </button>
