@@ -1,5 +1,16 @@
-import insta_logo from './insta_logo.png'
-import linkedin_logo from './linkedin_logo.png'
+// Social Media
+import instagram from './instagram.png'
+import linkedin from './linkedin.png'
+
+// Design Resources
+
+// Portfolio inspiration
+import yash_jain from './yash_jain.png'
+import vyshnav from './vyshnav.png'
+import saurabh from './saurabh.png'
+
+
+
 
 export const bookmark_list = [
   {
@@ -7,262 +18,58 @@ export const bookmark_list = [
     category: "Social Media",
     bookmarks: [
       {
-        name: "Instagram Account",
-        tag: "account",
+        name: "Instagram",
+        tag: "social",
         link: "https://www.instagram.com/mr_chahat_kesharwani",
-        logo: insta_logo
+        logo: instagram
       },
       {
-        name: "Instagram Account",
+        name: "LinkedIn",
         tag: "account",
-        link: "https://www.instagram.com/mr_chahat_kesharwani",
-        logo: linkedin_logo
-      },
-      {
-        name: "LinkedIn Account",
-        tag: "account",
-        link: "https://www.instagram.com/mr_chahat_kesharwani",
-        logo: linkedin_logo
-      },
-      {
-        name: "Instagram Account",
-        tag: "account",
-        link: "https://www.instagram.com/mr_chahat_kesharwani",
-        logo: linkedin_logo
-      },
-      {
-        name: "Instagram Account",
-        tag: "account",
-        link: "https://www.instagram.com/mr_chahat_kesharwani",
-        logo: linkedin_logo
-      },
-      {
-        name: "Instagram Account",
-        tag: "account",
-        link: "https://www.instagram.com/mr_chahat_kesharwani",
-        logo: linkedin_logo
-      },
-      {
-        name: "Instagram Account",
-        tag: "account",
-        link: "https://www.instagram.com/mr_chahat_kesharwani",
-        logo: linkedin_logo
-      },
-      {
-        name: "Instagram Account",
-        tag: "account",
-        link: "https://www.instagram.com/mr_chahat_kesharwani",
-        logo: linkedin_logo
-      },
-      {
-        name: "Instagram Account",
-        tag: "account",
-        link: "https://www.instagram.com/mr_chahat_kesharwani",
-        logo: linkedin_logo
-      },
-      {
-        name: "Instagram Account",
-        tag: "account",
-        link: "https://www.instagram.com/mr_chahat_kesharwani",
-        logo: linkedin_logo
+        link: "https://www.linkedin.com/in/chahatkesharwani/",
+        logo: linkedin
       },
     ]
   },
   {
     id: 2,
-    category: "UI/UX Design",
+    category: "Design Resources",
     bookmarks: [
       {
-        name: "30days design",
-        tag: "ui",
+        name: "Instagram",
+        tag: "social",
         link: "https://www.instagram.com/mr_chahat_kesharwani",
-        logo: insta_logo
+        logo: instagram
       },
       {
-        name: "uxcel",
-        tag: "ux",
-        link: "https://www.instagram.com/mr_chahat_kesharwani",
-        logo: linkedin_logo
-      },
-      {
-        name: "Instagram Account",
+        name: "LinkedIn",
         tag: "account",
-        link: "https://www.instagram.com/mr_chahat_kesharwani",
-        logo: linkedin_logo
-      },
-      {
-        name: "Instagram Account",
-        tag: "account",
-        link: "https://www.instagram.com/mr_chahat_kesharwani",
-        logo: linkedin_logo
-      },
-      {
-        name: "Instagram Account",
-        tag: "account",
-        link: "https://www.instagram.com/mr_chahat_kesharwani",
-        logo: linkedin_logo
-      },
-      {
-        name: "Instagram Account",
-        tag: "account",
-        link: "https://www.instagram.com/mr_chahat_kesharwani",
-        logo: linkedin_logo
-      },
-      {
-        name: "Instagram Account",
-        tag: "account",
-        link: "https://www.instagram.com/mr_chahat_kesharwani",
-        logo: linkedin_logo
-      },
-      {
-        name: "Instagram Account",
-        tag: "account",
-        link: "https://www.instagram.com/mr_chahat_kesharwani",
-        logo: linkedin_logo
-      },
-      {
-        name: "Instagram Account",
-        tag: "account",
-        link: "https://www.instagram.com/mr_chahat_kesharwani",
-        logo: linkedin_logo
-      },
-      {
-        name: "Instagram Account",
-        tag: "account",
-        link: "https://www.instagram.com/mr_chahat_kesharwani",
-        logo: linkedin_logo
+        link: "https://www.linkedin.com/in/chahatkesharwani/",
+        logo: linkedin
       },
     ]
   },
   {
     id: 3,
-    category: "Lifestyle",
+    category: "Portfolio Inspiration",
     bookmarks: [
       {
-        name: "Morning Rule",
-        tag: "ui",
-        link: "https://www.instagram.com/mr_chahat_kesharwani",
-        logo: insta_logo
+        name: "Yash Jain",
+        tag: "web designer",
+        link: "https://yashjain.design/",
+        logo: yash_jain
       },
       {
-        name: "AI to use",
-        tag: "ux",
-        link: "https://www.instagram.com/mr_chahat_kesharwani",
-        logo: linkedin_logo
+        name: "Vyshnav.xyz",
+        tag: "developer",
+        link: "https://vyshnav.xyz/",
+        logo: vyshnav
       },
       {
-        name: "Instagram Account",
-        tag: "account",
-        link: "https://www.instagram.com/mr_chahat_kesharwani",
-        logo: linkedin_logo
-      },
-      {
-        name: "Instagram Account",
-        tag: "account",
-        link: "https://www.instagram.com/mr_chahat_kesharwani",
-        logo: linkedin_logo
-      },
-      {
-        name: "Instagram Account",
-        tag: "account",
-        link: "https://www.instagram.com/mr_chahat_kesharwani",
-        logo: linkedin_logo
-      },
-      {
-        name: "Instagram Account",
-        tag: "account",
-        link: "https://www.instagram.com/mr_chahat_kesharwani",
-        logo: linkedin_logo
-      },
-      {
-        name: "Instagram Account",
-        tag: "account",
-        link: "https://www.instagram.com/mr_chahat_kesharwani",
-        logo: linkedin_logo
-      },
-      {
-        name: "Instagram Account",
-        tag: "account",
-        link: "https://www.instagram.com/mr_chahat_kesharwani",
-        logo: linkedin_logo
-      },
-      {
-        name: "Instagram Account",
-        tag: "account",
-        link: "https://www.instagram.com/mr_chahat_kesharwani",
-        logo: linkedin_logo
-      },
-      {
-        name: "Instagram Account",
-        tag: "account",
-        link: "https://www.instagram.com/mr_chahat_kesharwani",
-        logo: linkedin_logo
-      },
-    ]
-  },
-  {
-    id: 4,
-    category: "Money Making",
-    bookmarks: [
-      {
-        name: "Morning Rule",
-        tag: "ui",
-        link: "https://www.instagram.com/mr_chahat_kesharwani",
-        logo: insta_logo
-      },
-      {
-        name: "AI to use",
-        tag: "ux",
-        link: "https://www.instagram.com/mr_chahat_kesharwani",
-        logo: linkedin_logo
-      },
-      {
-        name: "Instagram Account",
-        tag: "account",
-        link: "https://www.instagram.com/mr_chahat_kesharwani",
-        logo: linkedin_logo
-      },
-      {
-        name: "Instagram Account",
-        tag: "account",
-        link: "https://www.instagram.com/mr_chahat_kesharwani",
-        logo: linkedin_logo
-      },
-      {
-        name: "Instagram Account",
-        tag: "account",
-        link: "https://www.instagram.com/mr_chahat_kesharwani",
-        logo: linkedin_logo
-      },
-      {
-        name: "Instagram Account",
-        tag: "account",
-        link: "https://www.instagram.com/mr_chahat_kesharwani",
-        logo: linkedin_logo
-      },
-      {
-        name: "Instagram Account",
-        tag: "account",
-        link: "https://www.instagram.com/mr_chahat_kesharwani",
-        logo: linkedin_logo
-      },
-      {
-        name: "Instagram Account",
-        tag: "account",
-        link: "https://www.instagram.com/mr_chahat_kesharwani",
-        logo: linkedin_logo
-      },
-      {
-        name: "Instagram Account",
-        tag: "account",
-        link: "https://www.instagram.com/mr_chahat_kesharwani",
-        logo: linkedin_logo
-      },
-      {
-        name: "Instagram Account",
-        tag: "account",
-        link: "https://www.instagram.com/mr_chahat_kesharwani",
-        logo: linkedin_logo
+        name: "Saurabh Saini",
+        tag: "web designer",
+        link: "https://saurabhcrafts.in/",
+        logo: saurabh
       },
     ]
   },

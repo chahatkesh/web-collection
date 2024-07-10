@@ -5,7 +5,7 @@ import BookmarkItem from "./BookmarkItem";
 const BookmarkList = () => {
   return (
     <>
-      <div>
+      <div className="grid md:grid-cols-2 gap-x-4 gap-y-0">
         {bookmark_list.map((categoryItem, index) => (
           <BookmarkItem
             key={index}

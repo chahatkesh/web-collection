@@ -11,3 +11,8 @@
   font-family: "Familjen Grotesk", sans-serif;
   transition: 0.2s;
 }
+@media (max-width: 768px) {
+  .mobile-only {
+    display: flex;
+  }
+}
