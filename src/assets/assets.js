@@ -19,7 +19,7 @@ export const bookmark_list = [
         logo: linkedin_logo
       },
       {
-        name: "Instagram Account",
+        name: "LinkedIn Account",
         tag: "account",
         link: "https://www.instagram.com/mr_chahat_kesharwani",
         logo: linkedin_logo
