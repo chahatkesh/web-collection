@@ -51,7 +51,7 @@ const BookmarkItem = ({ category, bookmarks }) => {
                   target="_blank"
                   href={item.link}
                   key={index}
-                  className="flex justify-between items-center p-4 md:p-6 bg-white rounded shadow hover:bg-gray-50 cursor-pointer gap-3">
+                  className="flex justify-between items-center p-2 md:p-4 bg-white rounded shadow hover:bg-gray-50 cursor-pointer gap-3">
                   <div>
                     <h2 className="text-[12px] md:text-[16px] font-[400]">
                       {item.name}
