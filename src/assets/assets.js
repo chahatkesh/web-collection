@@ -16,19 +16,14 @@ export const bookmark_list = [
         logo: "https://i.pinimg.com/originals/74/6d/77/746d77ef9b49afd5ec2306d39592d01e.png"
       },
       {
-        name: "Gmail",
-        link: "https://accounts.google.com/b/0/AddMailService",
-        logo: "https://cdn1.iconfinder.com/data/icons/google-new-logos-1/32/gmail_new_logo-512.png"
+        name: "Replit",
+        link: "https://replit.com/~",
+        logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/New_Replit_Logo.svg/1200px-New_Replit_Logo.svg.png"
       },
       {
-        name: "Meet",
-        link: "https://meet.google.com/",
-        logo: "https://cdn.iconscout.com/icon/free/png-256/free-google-meet-2981835-2476480.png?f=webp&w=256"
-      },
-      {
-        name: "Youtube",
-        link: "https://youtube.com/",
-        logo: "https://static.vecteezy.com/system/resources/previews/023/986/704/non_2x/youtube-logo-youtube-logo-transparent-youtube-icon-transparent-free-free-png.png"
+        name: "Link tree",
+        link: "https://linktr.ee/admin",
+        logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNUl9p5O30Bq3OaoOiI5O_PmGRZjvbteT7mQ&s"
       },
     ]
   },
@@ -121,6 +116,34 @@ export const bookmark_list = [
       },
     ]
   },
+  // Hosting Platform
+  {
+    category: "Hosting Platform",
+    bgcolor: "#f7fee7",
+    hcolor: "#4d7c0f",
+    bookmarks: [
+      {
+        name: "Github",
+        link: "https://github.com/chahatkesh",
+        logo: "https://cdn-icons-png.flaticon.com/512/25/25231.png"
+      },
+      {
+        name: "Render",
+        link: "https://dashboard.render.com/",
+        logo: "https://images.crunchbase.com/image/upload/c_pad,f_auto,q_auto:eco,dpr_1/gkq3dkkfkec8edd6fuay"
+      },
+      {
+        name: "Vercel",
+        link: "https://vercel.com/chahat-kesharwanis-projects",
+        logo: "https://static-00.iconduck.com/assets.00/vercel-icon-512x449-3422jidz.png"
+      },
+      {
+        name: "Netlify",
+        link: "https://app.netlify.com/teams/chahatkesh/overview",
+        logo: "https://i.pinimg.com/474x/3b/31/f7/3b31f71b115fc19ce67f9600a1f5244a.jpg"
+      },
+    ]
+  },
   // Portfolio Inspiration
   {
     category: "Portfolio Inspiration",
@@ -141,6 +164,11 @@ export const bookmark_list = [
         name: "Vyshnav",
         link: "https://vyshnav.xyz/",
         logo: "https://pbs.twimg.com/profile_images/1789566505744797696/St6TEeEP_400x400.jpg"
+      },
+      {
+        name: "Thomas Frank",
+        link: "https://thomasjfrank.com/",
+        logo: "https://thomasjfrank.com/wp-content/uploads/2021/09/Thomas-Frank-Headshot-2021.jpg"
       },
     ]
   },

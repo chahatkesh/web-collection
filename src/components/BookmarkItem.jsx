@@ -5,13 +5,13 @@ const BookmarkItem = ({ hcolor, color, category, bookmarks }) => {
     <>
       <div
         style={{ backgroundColor: color }}
-        className="px-4 pt-6 pb-8 rounded">
+        className="px-2 md:px-4 pt-3 md:pt-6 pb-4 md:pb-8 rounded">
         <h1
           style={{ color: hcolor }}
           className="text-[14px] md:text-[18px] font-medium pl-1">
           {category}
         </h1>
-        <div className="grid grid-cols-2 mt-4 gap-x-3 gap-y-3">
+        <div className="grid grid-cols-2 mt-2 md:mt-4 gap-x-2 gap-y-2 md:gap-x-3 md:gap-y-3">
           {bookmarks.map((item, index) => {
             return (
               <>
@@ -21,7 +21,7 @@ const BookmarkItem = ({ hcolor, color, category, bookmarks }) => {
                   key={index}
                   className="flex justify-between items-center p-2 md:p-2.5 bg-white rounded hover:bg-blue-100 cursor-pointer gap-3">
                   <div>
-                    <h2 className="text-[12px] md:text-[16px] font-[400]">
+                    <h2 className="text-[13px] md:text-[16px] font-[400]">
                       {item.name}
                     </h2>
                   </div>
