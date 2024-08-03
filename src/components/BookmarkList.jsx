@@ -5,12 +5,14 @@ import BookmarkItem from "./BookmarkItem";
 const BookmarkList = () => {
   return (
     <>
-      <div className="grid md:grid-cols-2 gap-x-4 gap-y-0">
+      <div className="md:grid md:grid-cols-3 gap-x-6 gap-y-6">
         {bookmark_list.map((categoryItem, index) => (
           <BookmarkItem
             key={index}
             category={categoryItem.category}
             bookmarks={categoryItem.bookmarks}
+            color={categoryItem.bgcolor}
+            hcolor={categoryItem.hcolor}
           />
         ))}
       </div>
