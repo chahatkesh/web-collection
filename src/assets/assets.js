@@ -1,32 +1,4 @@
 export const bookmark_list = [
-  // tools
-  {
-    category: "Tools",
-    bgcolor: "#fffbeb",
-    hcolor: "#b45309",
-    bookmarks: [
-      {
-        name: "ChatGPT",
-        link: "https://chat.openai.com/",
-        logo: "https://swipefile.com/wp-content/uploads/2023/08/chatgpt-logo-chat-gpt-1024x1024.png"
-      },
-      {
-        name: "Canva",
-        link: "https://www.canva.com/",
-        logo: "https://i.pinimg.com/originals/74/6d/77/746d77ef9b49afd5ec2306d39592d01e.png"
-      },
-      {
-        name: "Replit",
-        link: "https://replit.com/~",
-        logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/New_Replit_Logo.svg/1200px-New_Replit_Logo.svg.png"
-      },
-      {
-        name: "Link tree",
-        link: "https://linktr.ee/admin",
-        logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNUl9p5O30Bq3OaoOiI5O_PmGRZjvbteT7mQ&s"
-      },
-    ]
-  },
   // google
   {
     category: "Google",
@@ -58,6 +30,11 @@ export const bookmark_list = [
         link: "https://youtube.com/",
         logo: "https://static.vecteezy.com/system/resources/previews/023/986/704/non_2x/youtube-logo-youtube-logo-transparent-youtube-icon-transparent-free-free-png.png"
       },
+      {
+        name: "",
+        link: "",
+        logo: ""
+      },
     ]
   },
   // social media 
@@ -86,11 +63,21 @@ export const bookmark_list = [
         link: "https://topmate.io/dashboard/home",
         logo: "https://topmate-staging.s3.ap-south-1.amazonaws.com/udpg1suHjRq3SU9U4yKFZ1.png"
       },
+      {
+        name: "Unstop",
+        link: "https://unstop.com/",
+        logo: "https://d8it4huxumps7.cloudfront.net/uploads/images/unstop/branding-guidelines/icon/unstop-icon-800x800.png"
+      },
+      {
+        name: "",
+        link: "",
+        logo: ""
+      },
     ]
   },
-  // coding practise
+  // coding Platform
   {
-    category: "Coding Practise",
+    category: "Coding Platform",
     bgcolor: "#faf5ff",
     hcolor: "#7e22ce",
     bookmarks: [
@@ -113,6 +100,54 @@ export const bookmark_list = [
         name: "Codeforces",
         link: "https://codeforces.com/profile/chahatkesh",
         logo: "https://cdn.iconscout.com/icon/free/png-256/free-code-forces-3521352-2944796.png?f=webp&w=256"
+      },
+      {
+        name: "Codechef",
+        link: "https://www.codechef.com/dashboard",
+        logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwcZnZzbClQwxgyRd482HUuOr2qMQvyvLApQ&s"
+      },
+      {
+        name: "Replit",
+        link: "https://replit.com/~",
+        logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/New_Replit_Logo.svg/1200px-New_Replit_Logo.svg.png"
+      },
+    ]
+  },
+  // tools
+  {
+    category: "Tools",
+    bgcolor: "#fffbeb",
+    hcolor: "#b45309",
+    bookmarks: [
+      {
+        name: "ChatGPT",
+        link: "https://chat.openai.com/",
+        logo: "https://swipefile.com/wp-content/uploads/2023/08/chatgpt-logo-chat-gpt-1024x1024.png"
+      },
+      {
+        name: "Canva",
+        link: "https://www.canva.com/",
+        logo: "https://i.pinimg.com/originals/74/6d/77/746d77ef9b49afd5ec2306d39592d01e.png"
+      },
+      {
+        name: "Convertio",
+        link: "https://convertio.co/",
+        logo: "https://avatars.githubusercontent.com/u/18604702?s=280&v=4"
+      },
+      {
+        name: "Bing Create",
+        link: "https://www.bing.com/images/create",
+        logo: "https://upload.wikimedia.org/wikipedia/commons/9/9c/Bing_Fluent_Logo.svg"
+      },
+      {
+        name: "Link tree",
+        link: "https://linktr.ee/admin",
+        logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNUl9p5O30Bq3OaoOiI5O_PmGRZjvbteT7mQ&s"
+      },
+      {
+        name: "Gravity Write",
+        link: "https://app.gravitywrite.com/home",
+        logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTftiaKhrn9Cl8ZefMLjN2cSjnb1fBxrEPH4Q&s"
       },
     ]
   },
@@ -141,6 +176,111 @@ export const bookmark_list = [
         name: "Netlify",
         link: "https://app.netlify.com/teams/chahatkesh/overview",
         logo: "https://i.pinimg.com/474x/3b/31/f7/3b31f71b115fc19ce67f9600a1f5244a.jpg"
+      },
+      {
+        name: " Stripe",
+        link: "https://dashboard.stripe.com/test/dashboard",
+        logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgo1RFX3bAhJag1QssGDg5pnNUrOUi3T4FjA&s"
+      },
+      {
+        name: "Collect Chat",
+        link: "https://dashboard.collect.chat/workspace/669a8ad83e99425e992de590",
+        logo: "https://collect.chat/blog/content/images/2023/01/logo-clean-500x-2.png"
+      },
+    ]
+  },
+  // Web Dev Resources
+  {
+    category: "Web Dev Resources",
+    bgcolor: "#f7fee7",
+    hcolor: "#4d7c0f",
+    bookmarks: [
+      {
+        name: "",
+        link: "",
+        logo: ""
+      },
+      {
+        name: "",
+        link: "",
+        logo: ""
+      },
+      {
+        name: "",
+        link: "",
+        logo: ""
+      },
+      {
+        name: "",
+        link: "",
+        logo: ""
+      },
+      {
+        name: "",
+        link: "",
+        logo: ""
+      },
+      {
+        name: "",
+        link: "",
+        logo: ""
+      },
+
+    ]
+  },
+  // NITJ
+  {
+    category: "NITJ",
+    bgcolor: "#fff1f2",
+    hcolor: "#be123c",
+    bookmarks: [
+      {
+        name: "Website",
+        link: "https://www.nitj.ac.in/",
+        logo: "https://www.nitj.ac.in/public/assets/images/logo_250.png"
+      },
+      {
+        name: "ERP",
+        link: "https://v1.nitj.ac.in/erp/login",
+        logo: "https://cdn-icons-png.flaticon.com/512/5129/5129557.png"
+      },
+      {
+        name: "ICE",
+        link: "https://departments.nitj.ac.in/dept/ice/home",
+        logo: "https://nitj.ac.in/files/1692002765170-Department%2019.png"
+      },
+      {
+        name: "Student Corner",
+        link: "https://www.nitj.ac.in/template/index.html?id=0?category=notice",
+        logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7dzpOJhblks60D-mYfR6Mh7Fj8lPstjAWOg&s"
+      },
+    ]
+  },
+  // article
+  {
+    category: "Article",
+    bgcolor: "#ecfeff",
+    hcolor: "#0e7490",
+    bookmarks: [
+      {
+        name: "Medium",
+        link: "https://medium.com/",
+        logo: "https://www.svgrepo.com/show/354057/medium-icon.svg"
+      },
+      {
+        name: "Daily.dev",
+        link: "https://app.daily.dev/my-feed",
+        logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWe9XsvUegaAAEBn60ySRpdFYEmt15xz-iBg&s"
+      },
+      {
+        name: "LinkedIn learn",
+        link: "https://www.linkedin.com/learning/?trk=nav_neptune_learning&",
+        logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqLKpJJbkbTeuAXPdcTD2Kuyhyi03mQoBMHQ&s"
+      },
+      {
+        name: "",
+        link: "",
+        logo: ""
       },
     ]
   },
