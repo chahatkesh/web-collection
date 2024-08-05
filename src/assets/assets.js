@@ -196,14 +196,14 @@ export const bookmark_list = [
     hcolor: "#4d7c0f",
     bookmarks: [
       {
-        name: "",
-        link: "",
-        logo: ""
+        name: "Harkirat 3.0",
+        link: "https://harkirat.classx.co.in/new-courses/15/content?activeTab=Content",
+        logo: "https://appxcontent.kaxa.in/paid_course3/2024-07-07-0.07833836520330406.png"
       },
       {
-        name: "",
-        link: "",
-        logo: ""
+        name: "100xDevs",
+        link: "https://app.100xdevs.com/",
+        logo: "https://media.licdn.com/dms/image/D4D0BAQGAx7aNVSaMfg/company-logo_200_200/0/1716230100058/100xdevs_logo?e=2147483647&v=beta&t=sZtlEr4bOPOoeHgfsxJaRU3VsIgsMfgkDZY0mGCpWW0"
       },
       {
         name: "",
