@@ -250,9 +250,9 @@ export const bookmark_list = [
         logo: "https://nitj.ac.in/files/1692002765170-Department%2019.png"
       },
       {
-        name: "Student Corner",
-        link: "https://www.nitj.ac.in/template/index.html?id=0?category=notice",
-        logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7dzpOJhblks60D-mYfR6Mh7Fj8lPstjAWOg&s"
+        name: "NSP",
+        link: "https://scholarships.gov.in/",
+        logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcStFhHTwRRxe_IozWg8dkMAMmPtHmB-p3k2Qw&s"
       },
     ]
   },
