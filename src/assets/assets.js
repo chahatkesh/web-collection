@@ -111,6 +111,16 @@ export const bookmark_list = [
         link: "https://replit.com/~",
         logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/New_Replit_Logo.svg/1200px-New_Replit_Logo.svg.png"
       },
+      {
+        name: "GeeksforGeeks",
+        link: "https://www.geeksforgeeks.org/user/chahatkesh/",
+        logo: "https://play-lh.googleusercontent.com/ZI21NMObsjB7DbPU_EXRymHJL3HQpfsrB2N4CWb-diXm4xjl_13mmetYQZvcpgGf-64"
+      },
+      {
+        name: "InterviewBit",
+        link: "https://www.interviewbit.com/profile/chahat-kesharwani/",
+        logo: "https://images.crunchbase.com/image/upload/c_pad,f_auto,q_auto:eco,dpr_1/v1436904172/ogamz6kykgz4kdz25ztl.png"
+      },
     ]
   },
   // tools
@@ -125,9 +135,19 @@ export const bookmark_list = [
         logo: "https://swipefile.com/wp-content/uploads/2023/08/chatgpt-logo-chat-gpt-1024x1024.png"
       },
       {
+        name: "Claude.ai",
+        link: "https://claude.ai/new",
+        logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJxDz5Tpea6n5Ec-WQWHy5Fl3-0CT5Rbz-Ggwa8b-HvbEj7CmVpr5rpRtnz6WdNu0y6bM&usqp=CAU"
+      },
+      {
         name: "Canva",
         link: "https://www.canva.com/",
         logo: "https://i.pinimg.com/originals/74/6d/77/746d77ef9b49afd5ec2306d39592d01e.png"
+      },
+      {
+        name: "Pinterest",
+        link: "https://in.pinterest.com/",
+        logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSWhYXJEsqPEscpE30APrKz_ZUYR38IAcgcqA&s"
       },
       {
         name: "Convertio",
@@ -176,6 +196,11 @@ export const bookmark_list = [
         name: "Netlify",
         link: "https://app.netlify.com/teams/chahatkesh/overview",
         logo: "https://i.pinimg.com/474x/3b/31/f7/3b31f71b115fc19ce67f9600a1f5244a.jpg"
+      },
+      {
+        name: "MongoDB",
+        link: "https://account.mongodb.com/account/login",
+        logo: "https://www.cdnlogo.com/logos/m/30/mongodb-icon.svg"
       },
       {
         name: " Stripe",
