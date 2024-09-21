@@ -31,9 +31,9 @@ export const bookmark_list = [
         logo: "https://static.vecteezy.com/system/resources/previews/023/986/704/non_2x/youtube-logo-youtube-logo-transparent-youtube-icon-transparent-free-free-png.png"
       },
       {
-        name: "",
-        link: "",
-        logo: ""
+        name: "Google Form",
+        link: "https://docs.google.com/forms/u/0/",
+        logo: "https://www.gstatic.com/images/branding/product/2x/forms_2020q4_48dp.png"
       },
     ]
   },
